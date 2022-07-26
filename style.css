@@ -1,0 +1,58 @@
+/* 
+1.posicionamiento posicion fix , relative 
+2.modelo de caja (box) margin padding wid heid
+3.tipografia letras 
+4.visuales border radios, shadow
+5.miselanios otros
+*/
+
+:root{
+    /* colores */
+    --bitcoin-orange: #F7931A;
+    --sort-orange: #FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 32rem;
+    height: 34.4rem;
+    text-align: center;
+}
+header img{
+    width: 15rem;
+    height: 2.4rem;
+    margin-top: 6rem;
+    align-self: center; 
+}
+.header--title-container{
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    height: 21.8rem;
+    margin-top: 4rem;
+    text-align: center;
+    align-self: center;
+
+}
