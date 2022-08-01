@@ -151,7 +151,15 @@ main{
 }
 
 /* tabla */
-
+.main-tables-container{
+    display: flex;
+    display: flex;
+    gap: 20px;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 
 .main-currency-table{
     width: 70%;
@@ -271,7 +279,7 @@ main{
     
 }
 
-.commisions-table--title{
+.commissions-table--title {
     margin-bottom: 15px;
     font-size: 1.8rem;
     line-height: 2.3rem;
