@@ -152,10 +152,10 @@ main{
 
 /* tabla */
 .main-tables-container{
-    display: flex;
+   
     display: flex;
     gap: 20px;
-    height: 316px;
+    height: 360px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
